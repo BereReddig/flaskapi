@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-
+app = Flask(__name__)
 #Me importo el objeto JSON mockeado.
 
 from products import products
@@ -63,4 +63,4 @@ def deleteProduct(product_name):
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', port=5000)
+    app.run('0.0.0.0', port=8000)
