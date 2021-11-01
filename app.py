@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-app = Flask(__name__)
+
 #Me importo el objeto JSON mockeado.
 
 from products import products
